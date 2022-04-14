@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Alerts -->
+    <h1 class="ppp">ALERTS</h1>
+    <div class="alert alert-danger mt-5" role="alert">
+        <h3>A simple danger alert—check it out!</h3>
+    </div>
+
+    <div class="alert alert-info mt-5" role="alert">
+        <h3> A simple info alert—check it out!</h3>
+    </div>
+    <div class="alert alert-success mt-5" role="alert">
+        <h3>A simple success alert—check it out!</h3>
+    </div>
+
+    <!-- Link color -->
+
+    <h1 class="ppp">LINK COLOR</h1>
+    <div class="alert alert-info mt-5" role="alert">
+        <h3>A simple info alert—check it out! <a href="https://www.youtube.com/">YOUTUBE</a></h3>
+    </div>
+
+    <div class="alert alert-danger mt-5" role="alert">
+        <h3>A simple danger alert—check it out! <a href="https://www.facebook.com/">FACEBOOK</a></h3>
+    </div>
+        
+    <!-- Icons -->
+
+    <!-- <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+        <div>
+          An example alert with an icon
+        </div>
+      </div> -->
+      <!-- NOTE [ DIT NOT GET IT] -->
+
+      <h1 class="wwpp">BUTTONS</h1>
+      <div class="danger mt-3">
+        <button type="button" class="btn btn-success w-10">
+            facebook <a href="https://www.facebook.com/">Notifications</a> 
+            <span class="badge bg-danger w-10">10</span>
+          </button>
+          <button type="button" class="btn btn-info w-15">
+            youtube   <a href="https://www.youtube.com/">messages</a>
+              <span class="badge bg-secondary">45</span>
+          </button>
+          <button type="button" class="btn btn-primary w-15">
+             whatsapp  <a href="https://www.whatsapp.com/">messages</a>
+            <span class="badge bg-dark">89</span>
+        </button>
+        <button type="button" class="btn btn-primary w-15">
+            facebook
+            <span class="badge bg-success">99</span>
+        </button>
+      </div>
+
+      <!-- Positioned -->
+        <h1 class="wwpp mt-5">Positioned</h1>
+        <div class="psd mt-3">
+            <button type="button" class="btn btn-danger position-relative psd">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info psd">
+                  90+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-primary position-relative psd">
+                Inbox
+                <span class="position-absolute top-100 start-0 translate-middle badge rounded-pill bg-success psd">
+                  50+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-info position-relative psd">
+                Inbox
+                <span class="position-absolute top-100 start-100 translate-middle badge rounded-pill bg-danger psd">
+                  60+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-success position-relative psd">
+                Inbox
+                <span class="position-absolute top-100 start-50 translate-middle badge rounded-pill bg-primary psd">
+                  10+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+        </div>
+
+        <!-- Background colors -->
+        <h1 class="wwpp mt-5">Background colors</h1>
+       <div class="danger rounded-pill mt-5 w-200">
+        <span class="badge bg-primary">Primary</span>
+        <span class="badge bg-secondary">Secondary</span>
+        <span class="badge bg-success">Success</span>
+        <span class="badge bg-danger">Danger</span>
+        <span class="badge bg-warning text-dark">Warning</span>
+        <span class="badge bg-info text-dark">Info</span>
+        <span class="badge bg-light text-dark">Light</span>
+        <span class="badge bg-dark">Dark</span>
+       </div>  
+
+       <!-- Button tags -->
+       <h1 class="wwpp mt-5">Button tags</h1>
+       <div class="danger mt-5">
+        <a class="btn btn-info" href="./index.html" role="button">Link</a>
+        <button class="btn btn-danger" type="submit" > Button</button>
+        <input class="btn btn-success" type="button" value="Input">
+        <input class="btn btn-waring" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+       </div>
+
+       <!-- Outline buttons -->
+       <h1 class="wwpp mt-5">Outline buttons</h1>
+       <div class="danger mt-3">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+       </div>
+
+       <!-- Sizes -->
+
+    <h1 class="wwpp mt-5">Sizes</h1>
+    <div class="danger mt-5">
+        <button type="button" class="btn btn-info btn-lg">Large button</button>
+       <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+       <button type="button" class="btn btn-danger btn-sm">Small button</button>
+     <button type="button" class="btn btn-waring btn-sm">Small button</button>
+    </div>
+
+    
+    <!-- Disabled state -->
+
+    <h1 class="wwpp mt-5">Disabled state</h1>
+    <div class="danger mt-5">
+        <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+     <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+    </div>
+
+    <!-- Block buttons -->
+
+    <h1 class="wwpp mt-5">Block buttons</h1>
+    <div class="danger mt-5">
+        <div class="d-grid gap-2">
+            <button class="btn btn-secondary" type="button">Button</button>
+            <button class="btn btn-danger" type="button">Button</button>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-info" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto mt-5">
+            <button class="btn btn-success" type="button">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+            <button class="btn btn-primary me-md-2" type="button">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
+    </div>
+    <!-- Toggle states -->
+    <h1 class="wwpp mt-5">Toggle states</h1>
+    <div class="danger mt-5">
+        <button type="button" class="btn btn-danger Active" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+      <button type="button" class="btn btn-secondary" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button>
+      <button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle button</button>
+    </div>
+</body>
+</html>
